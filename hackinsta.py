@@ -3,7 +3,7 @@ import json
 import time
 import os
 
-filename = 'pass.txt'
+filename = 'ERORXD'
 if os.path.isfile(filename):
 	with open(filename) as f:
 	    passwords = f.read().splitlines()
